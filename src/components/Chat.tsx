@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
-import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from './ui/accordion.tsx';
-import ChatHeader from './ChatHeader.tsx';
-import ChatInput from './ChatInput.tsx';
+import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from './ui/accordion';
+import ChatHeader from './ChatHeader';
+import ChatInput from './ChatInput';
 
 const Chat: FC = () => {
   return (

@@ -1,0 +1,17 @@
+import React from 'react'
+
+type Props = {}
+
+export default function ChatHeader({}: Props) {
+  return (
+    <div className="w-full flex gap-3 justify-start items-center text-zinc-800">
+      <div className="flex flex-col gap-1 justify-center items-start text-sm">
+        <p className='text-xs'>Chat with</p>
+        <div className='flex gap-1.5 items-center'>
+          <p className="w-2 h-2 rounded-full bg-green-500"/>
+          <p className='font-medium'>Gabriella</p>
+        </div>
+      </div>
+    </div>
+  )
+}
